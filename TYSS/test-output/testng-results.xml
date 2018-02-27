@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7218" started-at="2018-02-27T09:09:27Z" finished-at="2018-02-27T09:09:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7218" started-at="2018-02-27T09:09:27Z" finished-at="2018-02-27T09:09:34Z">
+      <class name="test.Test1">
+        <test-method status="PASS" signature="init()[pri:0, instance:test.Test1@1efbd816]" name="init" is-config="true" duration-ms="407" started-at="2018-02-27T14:39:27Z" finished-at="2018-02-27T14:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:test.Test1@1efbd816]" name="preCondition" is-config="true" duration-ms="7051" started-at="2018-02-27T14:39:27Z" finished-at="2018-02-27T14:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Test1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:test.Test1@1efbd816]" name="test1" duration-ms="12" started-at="2018-02-27T14:39:34Z" finished-at="2018-02-27T14:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:test.Test1@1efbd816]" name="postCondition" is-config="true" duration-ms="124" started-at="2018-02-27T14:39:34Z" finished-at="2018-02-27T14:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Test1.test1()[pri:0, instance:test.Test1@1efbd816] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void test.Test1.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="end()[pri:0, instance:test.Test1@1efbd816]" name="end" is-config="true" duration-ms="511" started-at="2018-02-27T14:39:34Z" finished-at="2018-02-27T14:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
